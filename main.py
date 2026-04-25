@@ -5,7 +5,7 @@ import time
 # -------------------------------------------------------
 # Application Init
 MainWindow = loadWindow('MainWindow.ui')
-MainWindow.setWindowTitle("AVR Tools version: 0.0.1")     # Set Window Title
+MainWindow.setWindowTitle("PySide Application Template version: 0.0.1")     # Set Window Title
 MainWindow.setMinimumSize(850, 550) 
 
 # -------------------------------------------------------
