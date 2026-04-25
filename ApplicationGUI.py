@@ -18,9 +18,7 @@ MainApplication = QApplication([])
 def loadWindow(windowFile):
     file = QFile(windowFile)
     file.open(QFile.ReadOnly)
-    loader = QUiLoader()
-    res = loader.load(file)
-    # res = QUiLoader().load(file)
+    res = QUiLoader().load(file)
     file.close()
     return res
 
